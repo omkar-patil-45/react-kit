@@ -1,10 +1,13 @@
 import "./App.css";
-import Events from "./Components/Events";
+import FormData from "./FormData/FormData";
+// import Events from "./Components/Events";
 
 function App() {
   return (
     <>
-      <Events />
+      {/* <Events /> */}
+
+      <FormData />
     </>
   );
 }
