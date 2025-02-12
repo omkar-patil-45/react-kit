@@ -1,5 +1,7 @@
 import "./App.css";
-import FormData from "./FormData/FormData";
+import Counter from "./FormData/Counter";
+// import InputFocuse from "./FormData/InputFocuse";
+// import FormData from "./FormData/FormData";
 // import Events from "./Components/Events";
 
 function App() {
@@ -7,7 +9,11 @@ function App() {
     <>
       {/* <Events /> */}
 
-      <FormData />
+      {/* <FormData/> */}
+
+      {/* <InputFocuse /> */}
+
+      <Counter />
     </>
   );
 }
