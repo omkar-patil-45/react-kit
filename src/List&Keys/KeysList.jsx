@@ -72,12 +72,17 @@ const KeysList = () => {
       <h3>Render Object in Table Format</h3>
       <table border="2px">
         <tbody>
-          {Object.keys(playerObj).map((v, i) => (         //Object.keys (playerObj) all keys are converted into array 
-            <tr key={"tr" + i}>
-              <td>{v}</td>
-              <td>{playerObj[v]}</td>
-            </tr>
-          ))}
+          {Object.keys(playerObj).map(
+            (
+              v,
+              i //Object.keys (playerObj) all keys are converted into array
+            ) => (
+              <tr key={"tr" + i}>
+                <td>{v}</td>
+                <td>{playerObj[v]}</td>
+              </tr>
+            )
+          )}
         </tbody>
       </table>
     </div>

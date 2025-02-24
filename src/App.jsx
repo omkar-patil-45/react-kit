@@ -1,5 +1,6 @@
 import "./App.css";
-import KeysList from "./List&Keys/KeysList";
+import Mounting from "./LifeCycleMethods/Mounting";
+// import KeysList from "./List&Keys/KeysList";
 // import A from "./A";
 
 // import ForwardRefA from "./FormData/ForwardRefA";
@@ -26,7 +27,9 @@ function App() {
         <A />
       </myContext.Provider> */}
 
-      <KeysList />
+      {/* <KeysList /> */}
+
+      <Mounting />
     </>
   );
 }
