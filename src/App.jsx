@@ -1,5 +1,6 @@
 import "./App.css";
-import Mounting from "./LifeCycleMethods/Mounting";
+import WillUnmount from "./LifeCycleMethods/WillUnmount";
+// import Mounting from "./LifeCycleMethods/Mounting";
 // import KeysList from "./List&Keys/KeysList";
 // import A from "./A";
 
@@ -29,7 +30,9 @@ function App() {
 
       {/* <KeysList /> */}
 
-      <Mounting />
+      {/* <Mounting /> */}
+
+      <WillUnmount />
     </>
   );
 }
