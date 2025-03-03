@@ -1,9 +1,11 @@
-import { BrowserRouter as Route, Router, Routes } from "react-router-dom";
+// import { BrowserRouter as Route, Router, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./Router/Navbar";
-import Home from "./Router/Pages/Home";
-import About from "./Router/Pages/About";
-import Contact from "./Router/Pages/Contact";
+import Parent1 from "./ReactMemo/Parent1";
+// import Parent from "./ReactMemo/Parent";
+// import Navbar from "./Router/Navbar";
+// import Home from "./Router/Pages/Home";
+// import About from "./Router/Pages/About";
+// import Contact from "./Router/Pages/Contact";
 // import WillUnmount from "./LifeCycleMethods/WillUnmount";
 // import Mounting from "./LifeCycleMethods/Mounting";
 // import KeysList from "./List&Keys/KeysList";
@@ -39,14 +41,18 @@ function App() {
 
       {/* <WillUnmount /> */}
 
-      <Router>
+      {/* <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
+      </Router> */}
+
+      {/* <Parent /> */}
+
+      <Parent1 />
     </>
   );
 }
