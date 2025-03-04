@@ -1,6 +1,7 @@
 // import { BrowserRouter as Route, Router, Routes } from "react-router-dom";
-import "./App.css";
-import Parent1 from "./ReactMemo/Parent1";
+// import "./App.css";
+import Header from "./Task/Header";
+// import Parent1 from "./ReactMemo/Parent1";
 // import Parent from "./ReactMemo/Parent";
 // import Navbar from "./Router/Navbar";
 // import Home from "./Router/Pages/Home";
@@ -52,7 +53,9 @@ function App() {
 
       {/* <Parent /> */}
 
-      <Parent1 />
+      {/* <Parent1 /> */}
+
+      <Header />
     </>
   );
 }
