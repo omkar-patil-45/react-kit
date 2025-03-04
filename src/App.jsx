@@ -1,6 +1,6 @@
 // import { BrowserRouter as Route, Router, Routes } from "react-router-dom";
-// import "./App.css";
-import Header from "./Task/Header";
+import "./App.css";
+// import Header from "./Task/Header";
 // import Parent1 from "./ReactMemo/Parent1";
 // import Parent from "./ReactMemo/Parent";
 // import Navbar from "./Router/Navbar";
@@ -11,6 +11,8 @@ import Header from "./Task/Header";
 // import Mounting from "./LifeCycleMethods/Mounting";
 // import KeysList from "./List&Keys/KeysList";
 // import A from "./A";
+
+import UserProfile from "./Task/UserProfile";
 
 // import ForwardRefA from "./FormData/ForwardRefA";
 // import Counter from "./FormData/Counter";
@@ -55,7 +57,9 @@ function App() {
 
       {/* <Parent1 /> */}
 
-      <Header />
+      {/* <Header /> */}
+
+      <UserProfile name="Omkar Patil" age={24} location="Pune" />
     </>
   );
 }
